@@ -1,0 +1,48 @@
+.cent{
+    text-align: center;
+}
+#parent_1{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin: 0px 100px;
+}
+#parent_1>div>a>img{
+    width: 30%;
+}
+/* Sub_item's */
+
+.parent_pro{
+    padding: 0px 40px;
+    text-align: center;
+} 
+.child{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 10px;
+}
+.child>div{
+    /* border: 1px dotted blue; */
+    padding: 10px 0px 0px 0px ;
+}
+/* #parent_2>div>a>img{
+    width: 100%;
+} */
+.img{
+    /* border: 1px solid red; */
+    /* width: 200px; */
+    width: 200px;
+    height: 200px;
+}
+/*  */
+ /* .img_hover{
+    border: 1px solid purple;
+    width: 200px;
+    position:absolute;
+  } 
+  .img_hover:hover{
+    display: none;
+  } */
+
+

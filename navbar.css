@@ -1,0 +1,37 @@
+#navbar{
+    width: 98%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+    background-color:#F9F9F9
+}
+#sale{
+    color: red;
+}
+#navbar > div:nth-child(1)>a{
+    color: blue;
+}
+a{
+    color: #444444;
+    text-decoration: none;
+}
+ #navbar > div{ 
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+#navbar > div:nth-child(2){ 
+    gap: 35px;
+}
+
+#navbar > div:nth-child(3){
+    gap: 20px;
+    color: black;
+} 
