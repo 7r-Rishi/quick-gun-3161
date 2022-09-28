@@ -1,0 +1,19 @@
+#footer{
+    padding: 72px 0px 50px;
+}
+
+#footer_item{
+    display: flex;
+    justify-content: space-between;
+    margin:0px 40px;
+}
+
+#footer_item > div{
+    width: 15%;
+    color: #444444;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+#footer_credits{
+    text-align: center;
+}
