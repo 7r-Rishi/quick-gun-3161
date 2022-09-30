@@ -1,3 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+* >h1,h3, p{
+    color:#4d5151 ;
+}
+*{
+    font-family: sans-serif;
+}
 .cent{
     text-align: center;
 }
@@ -19,7 +28,7 @@
 .child{
     /* border: 1px solid red; */
     display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(5,1fr);
     gap: 10px;
 }
 .child>div{
@@ -29,20 +38,231 @@
 /* #parent_2>div>a>img{
     width: 100%;
 } */
+#part2{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px;
+    
+}
+#part2>div{
+    background-color:#f7f7f7;
+}
+
 .img{
     /* border: 1px solid red; */
     /* width: 200px; */
-    width: 200px;
+    width: 240px;
     height: 200px;
 }
-/*  */
- /* .img_hover{
-    border: 1px solid purple;
-    width: 200px;
+ /* */
+ .img_hover{
+    /* border: 1px solid purple; */
+    width: 240px;
+    height: 200px;
     position:absolute;
   } 
   .img_hover:hover{
     display: none;
+  }
+
+
+
+  /* #field{
+    border: 2px solid blueviolet;
   } */
 
+.load{
+    margin-top: 20px;
+    padding: 50px 250px;
+    background-color: #f5f5f5;
+}
+.loadInner{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.loadInner>div{
+    background-color: #f5f5f5;
 
+}
+
+#like{
+    border: 1px solid teal;
+    color: gray;
+}
+#vid{
+    width: 100%;
+    height: 500px;
+}
+#silder{
+    display: flex;
+    gap: 20px;
+}
+.contain{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centerd_text{
+    width: 100%;
+    padding: 10px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centerd_form{
+    width: 35%;
+    height: 350px;
+    font-family: sans-serif;
+    border-radius: 20px;
+    padding: 25px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    word-wrap: break-word;
+    background-color: #FFFFFF;
+    color: #444444;
+    transform: translate(-50%, -50%);
+}
+
+ #img2>img{
+    width: 100%; 
+    margin-top: 40px;
+}
+#form>h1,p,button{
+    margin: 30px;
+}
+#form>button{
+    width: 200px;
+    border: 0px;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    padding:20px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+#brands{
+    margin-top: 50px;
+    font-family: sans-serif;
+    padding-top: 20px;
+    color: #4d5151;
+    background-color: #e6e6e6;
+}
+#brands_img{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+
+}
+#brands>button{
+    background-color: white;
+    border-radius: 20px;
+    color:#4d5151;
+    border: 0px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 15px 30px;
+}
+#id{
+    border: 1px solid blue;
+}
+.event_box{
+    margin: auto;
+    width: 80%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2,1fr);
+}
+.event_box>div>img{
+    width: 100%;
+    border-radius: 10px;
+}
+/* .event_box>div{
+    /* border: 1px solid red; */
+    /* width: 100%;
+    height: 500px;
+} */ 
+#sub> input{
+    width: 55%;
+    padding: 15px;
+    border: 1px solid grey;
+    border-radius:20px ;
+}
+#sub > button{
+    width: 30%;
+    border: 0px;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    padding:20px;
+    font-family: sans-serif;
+}
+.sub_form{
+    width: 40%;
+    height: 300px;
+    font-family: sans-serif;
+    border-radius: 20px;
+    padding: 25px;
+    position:absolute;
+    top: 50%;
+    left: 25%;
+    word-wrap: break-word;
+    background-color: #FFFFFF;
+    color: #444444;
+    transform: translate(-50%, -50%);
+}
+
+#values{
+    text-align: center;
+    padding: 50px 30px;
+    margin: auto;
+    background-color: #d6cff9;
+}
+.values{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}.values>div,h2{
+    font-size: 15px;
+    font-weight: bold;
+    /* color: #4d5151; */
+    text-align: center;
+}
+#club{
+    display: flex;
+    background-color: #444444;
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+    padding: 60px ;
+    /* gap: 50px; */
+        /* justify-content: space-between; */
+}
+#club>div{
+    width: 80%;
+    border: 1px solid red;
+}
+#club>div>img{
+   margin: 110px 0px 0px 100px;
+}
+
+#club>div>h1{
+    font-family: sans-serif;
+    font-size: 50px;
+    color: white;
+    text-align: left;
+}
+#club>div>p{
+    text-align: left;
+    font-family: sans-serif;
+    color: white;
+}
+#club>div>button{
+    background-color: gold;
+    color: white;
+    padding:20px;
+    font-family: sans-serif;
+
+}
