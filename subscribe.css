@@ -1,0 +1,33 @@
+.contain{
+    margin-top: 50px;
+}
+
+#sub > input{
+    width: 55%;
+    padding: 15px;
+    border: 1px solid grey;
+    border-radius:20px ;
+}
+#sub > button{
+    width: 30%;
+    border: 0px;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    padding:20px;
+    font-family: sans-serif;
+}
+.sub_form{
+    width: 40%;
+    height: 250px;
+    font-family: sans-serif;
+    border-radius: 20px;
+    padding: 25px;
+    position:absolute;
+    top: 50%;
+    left: 25%;
+    word-wrap: break-word;
+    background-color: #FFFFFF;
+    color: #444444;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,19 @@
+.news{
+    color: #444444;
+    margin-top: 50px;
+    background-color: #e6e6e6;
+    padding: 50px 40px;
+    /* text-align: center; */
+}
+.news>div:nth-child(1){
+    width: 50%;
+    margin: auto;
+    /* border: 1px solid blue; */
+}
+.news>div:nth-child(2){
+    display: flex;
+    margin-top: 50px;
+    gap: 100px;
+    /* border: 1px solid red; */
+    justify-content: space-evenly;
+}

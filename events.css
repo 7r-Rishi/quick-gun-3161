@@ -1,0 +1,24 @@
+#event{
+    margin-top: 50px;
+    color: #444444;
+}
+.event_box{
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+}
+.event_box>div>img{
+    width: 100%;
+    border-radius: 10px;
+}
+.event_box div>h2,h4{
+    margin: 15px;
+}
+/* .event_box>div{
+    border: 1px solid red;
+     width: 100%;
+    height: 500px;
+}  */

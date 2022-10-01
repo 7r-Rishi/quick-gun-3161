@@ -1,0 +1,19 @@
+#values{
+    width: 100%;
+    text-align: center;
+    height: 350px;
+    padding: 50px 30px;
+    /* margin: 50px 0 ; */
+    background-color: #d6cff9;
+    color: #444444;
+}
+.values{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 50px   ;
+}
+
+.values>div{
+    margin: auto;
+}
