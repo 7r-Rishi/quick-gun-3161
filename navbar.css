@@ -1,7 +1,7 @@
-#navbar{
+/* #navbar{
     width: 98%;
     position: -webkit-sticky;
-    /* position: sticky; */
+    position: sticky;
     top: 0;
     margin: auto;
     display: flex;
@@ -33,4 +33,110 @@ a{
 #navbar > div:nth-child(3){
     gap: 20px;
     color: black;
-} 
+}  */
+/* **************************************** */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+ }
+ nav{
+    background-color: #f9f9f9;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    height: 65px;
+    line-height: 65px;
+ }
+nav .wrapper{
+    position: relative;
+    background-color: #f9f9f9;
+    max-width: 1250px;
+    padding: 0 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wrapper .nav-link{
+    display: inline-flex;
+}
+.wrapper .logo a{
+    color: blue;
+    text-decoration: none;
+    font-weight: 800;
+}
+.nav-link li{
+    list-style: none;
+}
+.wrapper>div:nth-child(3){
+    display: flex;
+    gap: 30px;
+    font-size: 12px;
+    text-decoration: none;
+}
+.nav-link li a{
+    color:#444444 ;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 9px 15px;
+    transition: all 0.3s ease;
+}
+.nav-link li a:hover{
+    text-decoration: underline;
+}
+.nav-link .drop-menu{
+    background-color: white;
+    width: 200px;
+    top: 85px;
+    line-height: 45px;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+.nav-link li:hover .drop-menu,
+.nav-link li:hover .mega-box{
+    top:65px;
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.3s ease;
+}
+.drop-menu li a{
+    width: 100%;
+    display: block;
+    padding: 0 0 0 15px;
+    font-weight: 400;
+
+}
+.mega-box{
+    position: absolute;
+    top: 85px;
+    /* background-color: ; */
+    width: 100%;
+    left: 0;
+    opacity:0 ;
+    visibility: hidden;
+}
+.mega-box .content{
+    padding: 25px 20px;
+    background-color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.content .row{
+    width: calc(25% -30);
+    line-height: 35px;
+
+}
+.content .row:nth-child(1),
+.content .row:nth-child(2){
+    border-left: 0px;
+}
+.row .mega-link li a{
+    display: block;
+}

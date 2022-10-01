@@ -1,0 +1,14 @@
+#like{
+    color: gray;
+}
+#vid{
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+}
+#video-header > h1{
+    color: #444444;
+}
+#video-header{
+    margin-top: 50px;
+}
