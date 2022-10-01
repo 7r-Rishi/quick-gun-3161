@@ -1,0 +1,35 @@
+.child{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+}
+.child>div{
+    /* border: 1px solid red; */
+    padding: 10px 5px 5px 0px;
+    /* background-color:#f7f7f7; */
+}
+.img{
+    width: 240px;
+    height: 200px;
+}
+.child>div>a{
+    text-decoration: none;
+    color: #444444;
+}
+.child div p:nth-last-child(1)>span{
+    /* border: 1px solid red; */
+    color: blue;
+}
+/* hovering part */
+.img_hover{
+    width: 240px;
+    height: 200px;
+    position:absolute;
+} 
+.img_hover:hover{
+    display: none;
+}
+.child div h5{
+    margin-top: 10px;
+    font-size: 13px;
+}

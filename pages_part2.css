@@ -1,0 +1,29 @@
+.parent_pro{
+    margin-top: 70px;
+    padding: 0px 40px;
+    text-align: center;
+} 
+.parent_pro{
+    color: #444444;
+}
+#part2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px;
+    margin-top: 20px;
+}
+#part2>div{
+    padding: 30px;
+    background-color:#f7f7f7;
+}
+#part2>div>a{
+    text-decoration: none;
+    color: #444444;
+}
+.child div p:nth-last-child(1)>span{
+    /* border: 1px solid red; */
+    color: blue;
+}
+.child div p{
+    margin-top:10px ;
+}

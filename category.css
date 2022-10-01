@@ -1,0 +1,20 @@
+#parent_1{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    margin: 35px 100px;
+}
+#parent_1>div>a>img{
+    width: 30%;
+}
+#part_1{
+    color: #444444;
+}
+#parent_1>div>a{
+    text-decoration: none;
+    color: #444444;
+}
+#parent_1>div>a h5{
+    margin-top: 20px;
+}
