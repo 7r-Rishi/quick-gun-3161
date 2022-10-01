@@ -1,0 +1,24 @@
+#brands{
+    margin-top: 50px;
+    font-family: sans-serif;
+    /* padding-top: 30px; */
+    padding: 50px 20px 15px 20px;
+    color: #4d5151;
+    background-color: #e6e6e6;
+}
+
+#brands_img{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    gap: 10px;
+}
+#brands>button{
+    background-color: white;
+    border-radius: 20px;
+    color:#4d5151;
+    border: 0px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 15px 30px;
+}

@@ -1,0 +1,128 @@
+/* part 1 img */
+/* img{
+    width: 100%;
+    height: 550px
+} */
+.container {
+    position: relative;
+    text-align: center;
+    color:  white;
+}
+.centered {
+    position: absolute;
+    /* border: 1px solid red; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 440px;
+    font: 25px 'Zurich Extende' ;
+    font-family: sans-serif;
+}
+
+/* Part 2 info  */
+.info {
+    margin-top: 80px;
+    padding: 0px 180px;
+    color: #444444;
+}
+.info>div:nth-child(1){
+    /* border: 1px solid black; */
+    display: block;
+    text-align: center;    
+}
+#box{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+#box>div:nth-child(1)>p{
+    line-height: 30px;
+}
+#box>div:nth-child(2)>p{
+    /* line-height: 30px; */
+    margin-bottom:20px ;
+}
+#box>div:nth-child(2)>a{
+    color: #444444;
+}
+
+/* page part */
+#body{
+    /* border: 1px solid red; */
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 0px 50px;
+    color: #444444;
+    display: flex;
+    gap: 50px;
+}
+#filter{
+    width: 30%;
+}
+.item{
+    /* border: 1px solid blue; */
+    color: #444444;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.item>div{
+    /* border: 1px dotted black; */
+    text-align: center;
+    padding: 20px;
+}
+.item div h5,h2{
+    margin: auto;
+}
+.item div>div{
+    margin: 10px;
+} 
+.item div>div>p{
+    margin: 10px;
+}
+.item div> h5>span{
+    color: blue;
+}
+.imge{
+    width: 300px;
+    height: 300px;
+} 
+.img-hover{
+    width: 300px;
+    height: 300px;
+    position:absolute;
+} 
+.img-hover:hover{
+    display: none;
+}
+/* Filter part */
+#filter>h2{
+    margin:20px 0;
+    font-family: sans-serif;
+}
+#filter>p{
+    margin: 20px 0;
+}
+/*bottom page  */
+.bottom{
+    color: #444444;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 20px;
+}
+
+.des{
+    width: 80%;    
+    font-size: 15px;
+    padding: 0 0 10px 30px;
+}
+.sel{
+    width: 20%;
+    font-size: 14px;
+}
+.sel>p{
+     margin-top: 7px;
+}
