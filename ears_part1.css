@@ -16,9 +16,13 @@
     text-decoration: none;
     color: #444444;
 }
-.child div p:nth-last-child(1)>span{
+.child div p:nth-last-child(2)>span{
     /* border: 1px solid red; */
     color: blue;
+}
+.child div p:nth-last-child(2){
+    /* border: 1px solid teal; */
+    margin-bottom: 5px;
 }
 /* hovering part */
 .img_hover{

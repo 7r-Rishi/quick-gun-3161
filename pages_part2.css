@@ -22,7 +22,7 @@
 }
 .child div p:nth-last-child(1)>span{
     /* border: 1px solid red; */
-    color: blue;
+    /* color: blue; */
 }
 .child div p{
     margin-top:10px ;
